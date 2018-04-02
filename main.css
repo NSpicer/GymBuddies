@@ -1,8 +1,53 @@
-h1 {
-  color: blue;
+#Title {
+  background-image: url('C:/Users/Nicola/Documents/GitHub/GymBuddies/Images/Gym.jpg');
+  background-size: cover;
+  font-family: "Century Gothic";
+  text-align: center;
+  }
+#HomePage {
+  color: #777776;
+  font-family: "Century Gothic";
+  text-align: center;
 }
+#AboutPage {
+  color: #777776;
+  font-family: "Century Gothic";
+  text-align: center;
+}
+#ProfilePage {
+  color: #777776;
+  font-family: "Century Gothic";
+  text-align: center;
+}
+#ContactUsPage {
+  color: #777776;
+  font-family: "Century Gothic";
+  text-align: center;
+}
+ul.nav li{
+                display: inline-block;
+                padding-right: 10px;
+                background-color: #d4eff9;
+                font-family: "Century Gothic";
+            }
+ul.nav a {color: #777776;}
 
-
+h1 {
+  font-size: 60px;
+  color: #d4eff9;
+}
+h2 {
+  font-size: 20px;
+  color: white;
+}
+h3 {font-size: 40px;}
 body {
-  background: white;
+  margin: 0px;
+  background-color: #d4eff9;
+}
+ul {
+list-style-type: none;
+}
+img {
+    border-radius: 50%;
 }
