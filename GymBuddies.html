@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-
-<div id='Title' class='title'>
         <title>Gym Buddies</title>
-        <h1>Gym Buddies</h1>
-        <h2>Tired of going to the gym alone? Then find your Gym Buddy!</h2>
+        <script
+        src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src = "JQuery.js"></script>
         <link type="text/css" rel="stylesheet" href="main.css" />
     </head>
     <body>
+      <div id='Title' class='title'>
+        <h1>Gym Buddies</h1>
+        <h2>Tired of going to the gym alone? Then find your Gym Buddy!</h2>
         <ul class='nav'>
             <li><a href=GymBuddies.html>Home</a></li>
             <li><a href=AboutPage.html>About</a></li>
             <li><a href=ProfilePage.html>Profile</a></li>
             <li><a href=ContactUsPage.html>Contact Us</a></li>
-
-</div>
-          <div id='HomePage'>
+        </ul>
+      </div>
+      <div id='HomePage'>
             <p>You can use this website to find others near you interested in the gym. We want to connect you with new friends to help you keep up the motivation!</p>
-            <p>Add in Google maps API</p>
-            <p>Get rid of top margin so picture reaches top of page</p>
-            </div>
+      </div>
+      <div class="maps map-center">
+        <iframe
+          width="600"
+          height="450"
+          frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDFHdYaMTMYcO2DYvShpibKSYRiIpvnYlU
+          &q=Space+Needle,Seattle+WA" allowfullscreen>
+        </iframe>
+      </div>
     </body>
 </html>
