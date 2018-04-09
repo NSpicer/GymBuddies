@@ -1,49 +1,110 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 #Title {
   background-image: url('C:/Users/Nicola/Documents/GitHub/GymBuddies/Images/Gym.jpg');
   background-size: cover;
   font-family: "Century Gothic";
   text-align: center;
+  padding-top: 30px;
   }
 #HomePage {
   color: #777776;
   font-family: "Century Gothic";
   text-align: center;
+  margin: 30px;
 }
 #AboutPage {
   color: #777776;
   font-family: "Century Gothic";
   text-align: center;
+  margin: 30px;
 }
 #ProfilePage {
   color: #777776;
   font-family: "Century Gothic";
   text-align: center;
+  margin: 30px;
 }
 #ContactUsPage {
   color: #777776;
   font-family: "Century Gothic";
   text-align: center;
-
+  margin: 30px;
 }
-ul.nav li{
-                display: inline-block;
-                padding-right: 10px;
-                background-color: #d4eff9;
-                font-family: "Century Gothic";
-            }
-ul.nav a {color: #777776;}
-
+ul.nav li {
+    display: inline-block;
+    padding-right: 10px;
+    background-color: #d4eff9;
+    font-family: "Century Gothic";
+}
+ul.nav a {
+    color: #777776;
+    text-decoration: none;
+}
+ul.nav a:hover {
+    font-weight: bold;
+}
 h1 {
   font-size: 60px;
   color: #d4eff9;
+  padding: 10px;
 }
 h2 {
   font-size: 20px;
   color: white;
+  padding: 10px;
 }
-h3 {font-size: 40px;}
+h3 {
+  font-size: 40px;
+}
 body {
-  margin: 0px;
   background-color: #d4eff9;
 }
 ul {
@@ -57,11 +118,28 @@ input{
   font-size: 18px;
   width: 500px;
 }
-input[type="submit"] {
+
+input[placeholder="Send"]{
   background-color: #52b8dd;
   color: white;
   width: 100px;
 }
+
+input[placeholder="Send"]:hover {
+  background-color: grey;
+}
+
 input[placeholder="Message..."] {
   height: 300px;
+  margin: 10px;
 }
+
+input[placeholder="Name"] {
+  margin: 10px;
+}
+
+.maps {
+text-align: center;
+}
+
+.hover {background-color: white}

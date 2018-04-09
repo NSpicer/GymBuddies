@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html>
+<html>
     <head>
-
-<div id='Title' class='title'>
         <title>Gym Buddies</title>
-        <h1>Gym Buddies</h1>
-        <h2>Tired of going to the gym alone? Then find your Gym Buddy!</h2>
+        <script
+        src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src = "JQuery.js"></script>
         <link type="text/css" rel="stylesheet" href="main.css" />
-
     </head>
     <body>
+      <div id='Title' class='title'>
+        <h1>Gym Buddies</h1>
+        <h2>Tired of going to the gym alone? Then find your Gym Buddy!</h2>
         <ul class='nav'>
             <li><a href=GymBuddies.html>Home</a></li>
             <li><a href=AboutPage.html>About</a></li>
             <li><a href=ProfilePage.html>Profile</a></li>
             <li><a href=ContactUsPage.html>Contact Us</a></li>
         </ul>
-</div>
-
-            <div id='ContactUsPage'>
+      </div>
+      <div id='ContactUsPage'>
             <p>Use JavaScript to make send button change the screen to say 'thank you for contacting us! We will respond to your email within a couple of days'.</p>
             <p><input type="text" placeholder="Name"></P>
             <p><input type="email" placeholder="Email Address"></p>
             <p><input type="text" placeholder="Message..."></p>
-            <p><input type="Submit" placeholder="Send"></p>
-            </div>
-
+            <p><input class ="send" id="send" type="Submit" placeholder="Send"></p>
+      </div>
     </body>
 </html>
