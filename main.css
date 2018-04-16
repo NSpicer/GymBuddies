@@ -52,7 +52,7 @@ table {
   background-size: cover;
   font-family: "Century Gothic";
   text-align: center;
-  padding-top: 30px;
+  padding-top: 40px;
   }
 #HomePage {
   color: #777776;
@@ -72,6 +72,12 @@ table {
   text-align: center;
   margin: 30px;
 }
+#ProfilePage1 {
+  color: #777776;
+  font-family: "Century Gothic";
+  text-align: center;
+  margin: 30px;
+}
 #ContactUsPage {
   color: #777776;
   font-family: "Century Gothic";
@@ -81,6 +87,8 @@ table {
 ul.nav li {
     display: inline-block;
     padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 5px;
     background-color: #d4eff9;
     font-family: "Century Gothic";
 }
@@ -99,10 +107,11 @@ h1 {
 h2 {
   font-size: 20px;
   color: white;
-  padding: 10px;
+  padding: 20px;
 }
 h3 {
   font-size: 40px;
+	padding: 10px;
 }
 body {
   background-color: #d4eff9;
@@ -110,8 +119,24 @@ body {
 ul {
 list-style-type: none;
 }
-img {
+#profile {
     border-radius: 50%;
+}
+#social-buttons {
+	text-align: center;
+}
+.twitter {
+	padding: 0px;
+	border: 0px;
+}
+.facebook {
+	padding: 0px;
+	border: 0px;
+	margin: 5px;
+}
+.instagram {
+	padding: 0px;
+	border: 0px;
 }
 input{
   border: 0;
@@ -138,8 +163,20 @@ input[placeholder="Name"] {
   margin: 10px;
 }
 
-.maps {
-text-align: center;
+input[placeholder="Password"] {
+  margin: 10px;
 }
 
-.hover {background-color: white}
+.maps {
+text-align: center;
+margin: 20px;
+}
+
+
+ul.profile li{
+	padding: 5px;
+}
+
+#Aboutimage {
+	height: 400px;
+}
