@@ -48,7 +48,7 @@ table {
 }
 
 #Title {
-  background-image: url('C:/Users/Nicola/Documents/GitHub/GymBuddies/Images/Gym.jpg');
+  background-image: url('./Images/Gym.jpg');
   background-size: cover;
   font-family: "Century Gothic";
   text-align: center;
